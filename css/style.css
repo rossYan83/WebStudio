@@ -34,3 +34,63 @@ main{
     padding-bottom: 60px;
 }
 
+.content__list{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.image__info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.team{
+     background: #F5F4FA;
+     padding-top: 94px;
+     padding-bottom: 94px;
+    
+}
+.team__header{
+    text-align: center;
+}
+.team__list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.team__item{
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.team__item-img{
+    width: 100%;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 24px;
+}
+
+.header__list,
+.header__list-2{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+.header__title{
+    background-color: #2F303A;
+    padding-top: 200px;
+    padding-bottom: 210px;
+    display: flex;
+}
+
+.header__h1{
+    text-align: center;
+}
