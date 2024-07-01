@@ -94,3 +94,25 @@ main{
 .header__h1{
     text-align: center;
 }
+
+.portfolio__section__header{
+    display: block;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.portfolio__section__info{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.portfolio__section__item-img{
+    width: 370px;
+    height: 294px;
+}
+
+.portfolio__section__item{
+    border: 1px solid #EEE;
+    background: #FFF;
+}
