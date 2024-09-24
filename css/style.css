@@ -29,7 +29,7 @@ body {
     padding-bottom: 60px;
 }
 
-.footer__inner{
+.footer__inner {
     display: flex;
 }
 
@@ -128,7 +128,7 @@ body {
     gap: 20px;
 }
 
-.portfolio__section__item:hover{
+.portfolio__section__item:hover {
     border: 1px solid #EEE;
     background: #FFF;
     box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
@@ -276,43 +276,99 @@ body {
     box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
 } */
 
-.img__text{
+.img__text {
     color: #FFF;
-font-family: Roboto;
-font-size: 14px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 0.42px;
-text-transform: uppercase;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    margin-top: 20px;
 }
 
-.footer__img{
+.footer__img {
     margin-left: 70px;
 }
 
-.img__text{
+.img__text {
     margin-bottom: 20px;
 }
 
-.footer__img-1{
+.footer__img-1 {
+    margin-top: -60px;
     margin-right: 22px;
+    width: 44px;
 }
 
-.footer__img-1:nth-child(2){
+
+
+/* .footer__img-1:nth-child(2){
     background-color:  rgba(255, 255, 255, 0.10);
     background-size: 100px 100px;
 
-}
+} */
 
-.footer__img-1:hover{
-    background-color: #2196F3;
-    border-radius: 30px;
-    transition: 0.5s;
-}
 
-.footer__images{
+
+.footer__images {
     display: flex;
     align-items: center;
 }
 
+.team__item {
+    border-radius: 0px 0px 4px 4px;
+    background: #FFF;
+
+    /* material shadow v1 */
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
+}
+
+.team__img-1 {
+    margin-left: 34px;
+    margin-top: 16px;
+    margin-bottom: 14px;
+    width: 20px;
+    height: 20px;
+    background-size: 30px;
+}
+
+.team__img-1:hover {
+    background-color: #2196F3;
+
+}
+
+.team__img-1:nth-child(1) {
+    margin-left: 0px;
+}
+
+.client__title {
+    color: #212121;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.08px;
+}
+
+.client__images {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image__border {
+    width: 170px;
+    height: 92px;
+    border-radius: 4px;
+    border: 1px solid #AFB1B8;
+    margin-top: 20px;
+    
+}
+
+.client__img-1 {
+    width: 106px;
+}
