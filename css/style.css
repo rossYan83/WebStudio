@@ -68,6 +68,31 @@ body {
     justify-content: space-between;
 }
 
+.content__info-img {
+    width: 370px;
+    height: 294px;
+}
+
+.image__text-text {
+    position: relative;
+    right: 0px;
+    top: -70px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    background: rgba(47, 48, 58, 0.80);
+    text-align: center;
+    padding-bottom: 27px;
+    padding-top: 27px;
+}
+
+
+
 .team {
     background: #F5F4FA;
     padding-top: 94px;
@@ -332,6 +357,7 @@ body {
     width: 20px;
     height: 20px;
     background-size: 30px;
+    
 }
 
 .team__img-1:hover {
@@ -377,12 +403,13 @@ body {
     fill: #757575;
 }
 
-.client__img-1:hover{
+.client__img-1:hover {
     fill: #2196F3;
     transition: 0.5s;
 }
 
-.image__border:hover{
+.image__border:hover {
     border-radius: 4px;
-border: 1px solid #2196F3;
-transition: 0.5;}
+    border: 1px solid #2196F3;
+    transition: 0.5;
+}
