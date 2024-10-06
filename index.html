@@ -35,7 +35,65 @@
                             <a href="./index-portfolio.html">Портфоліо</a>
                         </li>
                         <li class="header__item">
-                            <a href="#">Контакти</a>
+                            
+                            <a class="btn-open" data-modal-open>
+                                Контакти
+                            </a>
+                            <div class="backdrop is-hidden" data-modal>
+                                <div class="modal">
+                                    <button class="btn" data-modal-close>
+                                        <img src="./close.svg" alt="">
+                                    </button>
+                                    <p class="modal__header">
+                                        Залиште свої дані, ми вам передзвонимо
+                                    </p>
+                                    <div class="modal__form">
+                                        <div class="modal__form-name">
+                                            <p class="modal__form-name-text">
+                                                Ім'я
+                                            </p>
+                                            <input class="modal__input" type="text">
+                                            <svg class="modal__input-img">
+                                                <use href="./symbol-defs-4.svg#icon-person-black-18dp-1"></use>
+                                            </svg>
+                                        </div>
+                                        <div class="modal__form-name">
+                                            <p class="modal__form-name-text">
+                                                Телефон
+                                            </p>
+                                            <input class="modal__input" type="text">
+                                            <svg class="modal__input-img">
+                                                <use href="./symbol-defs-4.svg#icon-phone"></use>
+                                            </svg>
+                                        </div>
+                                        <div class="modal__form-name">
+                                            <p class="modal__form-name-text">
+                                                Пошта
+                                            </p>
+                                            <input class="modal__input" type="text">
+                                            <svg class="modal__input-img">
+                                                <use href="./symbol-defs-4.svg#icon-email"></use>
+                                            </svg>
+                                        </div>
+                                        <p class="modal__form-name-text">
+                                            Коментар
+                                        </p>
+                                        <input class="modal__big-input" type="text" placeholder="Введіть текст">
+                                        <div class="modal__input-check">
+                                          <input class="input__check" type="checkbox">
+                                            <p class="modal__input-check-text-1">
+                                                Погоджуюся з розсилкою та приймаю
+                                            </p>
+                                            <p class="modal__input__input-text-2">
+                                                Умови договору 
+                                            </p>
+                                        </div>
+                                        <button class="modal__end-btn">
+                                            Відправити
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
                         </li>
                     </ul>
                     <ul class="header__list-2">
@@ -123,9 +181,9 @@
                                 </div>
                                 <div class="image__text">
                                     <img class="content__info-img" src="./images/info-img2.jpg" alt="info-img">
-                                        <p class="image__text-text">
-                                            Мобільні додатки
-                                        </p>
+                                    <p class="image__text-text">
+                                        Мобільні додатки
+                                    </p>
                                 </div>
                                 <div class="image__text">
                                     <img class="content__info-img" src="./images/info-img3.jpg" alt="info-img">
@@ -332,9 +390,27 @@
                         </svg>
                     </div>
                 </div>
+                <div class="footer__subscribe">
+                    <p class="footer__subscribe-title">
+                        Підпишіться на розсилку
+                    </p>
+                    <div class="footer__email">
+                        <input class="footer__input" type="text" placeholder="E-mail">
+                        <button class="footer__button">
+                            Підписатися
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none">
+                                <path
+                                    d="M24 0L0 13.5L7.66994 16.3407L19.5 5.25002L10.5017 17.3896L10.509 17.3923L10.5 17.3896V24.0001L14.8013 18.982L20.2501 21.0001L24 0Z"
+                                    fill="white" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
             </div>
         </div>
     </footer>
+    <script src="./modal.js"></script>
 </body>
 
 </html>

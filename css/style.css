@@ -8,6 +8,15 @@
     --blue: #2196F3;
     --white: #fff;
     --black: #2F303A;
+    --text: color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    /* 187.5% */
+    letter-spacing: 0.96px;
 }
 
 body {
@@ -215,7 +224,10 @@ body {
     line-height: normal;
     letter-spacing: 0.28px;
     text-decoration: none;
+    border-bottom: 3px solid #FFF;
 }
+
+
 
 .footer {
     height: 253px;
@@ -246,6 +258,7 @@ body {
 
 .header__list a:hover {
     color: #2196F3;
+    border-bottom: #2196F3 3px solid;
     transition: 0.3s;
 }
 
@@ -357,7 +370,7 @@ body {
     width: 20px;
     height: 20px;
     background-size: 30px;
-    
+
 }
 
 .team__img-1:hover {
@@ -413,3 +426,206 @@ body {
     border: 1px solid #2196F3;
     transition: 0.5;
 }
+
+.footer__subscribe {
+    margin-left: 93px;
+}
+
+.footer__subscribe-title {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    margin-right: 340px;
+}
+
+.footer__input {
+    width: 358px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.30);
+    background: rgba(33, 150, 243, 0.00);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    margin-right: 12px;
+}
+
+.footer__email {
+    display: flex;
+}
+
+.footer__button {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    /* 187.5% */
+    letter-spacing: 0.96px;
+    width: 200px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+
+
+
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 1;
+}
+
+
+.backdrop.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 528px;
+    min-height: 581px;
+    padding: 15px;
+    border-radius: 4px;
+    background: #FFF;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
+    transform: translate(-50%, -50%);
+}
+
+.btn{
+    margin-right:-410px;
+}
+
+.modal__input-img{
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+    position: relative;
+    right: 90%;
+}
+
+.modal__big-input{
+    width: 448px;
+height: 120px;
+flex-shrink: 0;
+border-radius: 4px;
+border: 1px solid rgba(33, 33, 33, 0.20);
+margin-left: -30px;
+}
+
+.modal__header{
+    color: #212121;
+text-align: center;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.6px;
+}
+
+.modal__form-name-text{
+    color: #757575;
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.12px;
+margin-right: 410px;
+
+}
+
+.modal__input{
+    width: 448px;
+height: 40px;
+flex-shrink: 0;
+border-radius: 4px;
+border: 1px solid rgba(33, 33, 33, 0.20);
+}
+
+.modal__input-check{
+    display: flex;
+}
+
+.modal__input-check-text-1{
+    color: #757575;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
+letter-spacing: 0.42px;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+.modal__input__input-text-2{
+    color: #2196F3;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.42px;
+text-decoration-line: underline;
+}
+
+.input__check{
+    margin-left: 52px;
+}
+
+.modal__end-btn{
+    border: none;
+    width: 200px;
+height: 50px;
+flex-shrink: 0;
+border-radius: 4px;
+background: #2196F3;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; /* 187.5% */
+letter-spacing: 0.96px;
+cursor: pointer;
+}
+
+.modal__input:hover{
+    border-radius: 4px;
+border: 1px solid #2196F3;
+transition: 0.5s;
+}
+
+.modal__input-img:hover{
+    fill: #2196F3;
+    transition: 0.5s;
+}
+
+.modal__input-img:hover{
+    
+}
+
