@@ -424,15 +424,38 @@ body {
     margin-left: 34px;
     margin-top: 16px;
     margin-bottom: 14px;
+    fill: #afb1b8;
     width: 20px;
     height: 20px;
-    background-size: 30px;
-
+    margin-left: 6px;
+    margin-top: 6px;
+    transition: 0.3s ease-out;
+    /* outline: 2px solid red; */
+    cursor: pointer;
+    box-sizing: content-box;
 }
 
-.team__img-1:hover {
-    background-color: #2196F3;
+.team__img-2{
+    width: 44px;
+    height: 34px;
+    border-radius: 50px;
+    transition: 0.3s ease-out;
+    cursor: pointer;
+}
 
+.team__img-2:hover{
+    fill: #ffffff;
+    background-color: #2196f3;
+    transform: scale(1.2);
+    
+}
+
+
+.team__img-1:hover {
+    fill: #ffffff;
+    background-color: #2196f3;
+    transform: scale(1.2);
+    border-radius: 50%;
 }
 
 .team__img-1:nth-child(1) {
