@@ -707,7 +707,7 @@ body {
     transition: 0.5s;
 }
 
-.modal__input-img:hover {}
+
 
 .backdrop {
     position: fixed;
@@ -835,6 +835,7 @@ body {
  */
  @keyframes heartbeat {
     from {
+        
       transform: scale(1);
       transform-origin: center center;
       animation-timing-function: ease-out;
