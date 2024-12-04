@@ -27,6 +27,7 @@ body {
     width: 1170px;
     margin-left: auto;
     margin-right: auto;
+    overflow: hidden;
 }
 
 .header {
@@ -858,4 +859,38 @@ body {
     }
   }
   
-  
+  img, video, iframe {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (min-width: 480px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1200px) {
+    body {
+        font-size: 20px;
+    }
+}
+
+table {
+    display: block;
+    overflow-x: auto;
+    max-width: 100%;
+}
+
+p {
+    word-wrap: break-word;
+}
+* {
+    outline: 1px solid red; /* Показує межі всіх елементів */
+}
