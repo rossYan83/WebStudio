@@ -25,10 +25,12 @@
         <div class="header__inner">
             <div class="container">
                 <nav class="menu">
+
                     <span class="span">
                         <img src="./images/logo.svg" alt="">
                     </span>
-                    <ul class="header__list">
+                    <ul class="header__list ">
+
                         <li class="header__item">
                             <a href="#">Студія</a>
                         </li>
@@ -36,8 +38,8 @@
                             <a href="./index-portfolio.html">Портфоліо</a>
                         </li>
                         <li class="header__item">
-                            
-                            <a class="btn-open" >
+
+                            <a class="btn-open">
                                 Контакти
                             </a>
                             <div class="backdrop is-hidden" data-modal>
@@ -81,12 +83,12 @@
                                         </p>
                                         <input class="modal__big-input" type="text" placeholder="Введіть текст">
                                         <div class="modal__input-check">
-                                          <input class="input__check" type="checkbox">
+                                            <input class="input__check" type="checkbox">
                                             <p class="modal__input-check-text-1">
                                                 Погоджуюся з розсилкою та приймаю
                                             </p>
                                             <p class="modal__input__input-text-2">
-                                                Умови договору 
+                                                Умови договору
                                             </p>
                                         </div>
                                         <button class="modal__end-btn wobble-hor-bottom">
@@ -105,7 +107,12 @@
                         <li class="header__item">
                             <a href="tel:+380961111111">+380961111111</a>
                         </li>
+
                     </ul>
+
+                    <button class="hamburger">
+                        <div class="bar"></div>
+                    </button>
                 </nav>
                 <div class="header__title">
                     <div class="header__title-part-1">
@@ -126,6 +133,16 @@
         </div>
         </div>
     </header>
+    <nav class="mobile__nav">
+        <a href="#">Студія</a>
+        <a href="./index-portfolio.html">Портфоліо</a>
+        <a class="btn-open">
+            Контакти
+        </a>
+        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <a href="tel:+380961111111">+380961111111</a>
+
+    </nav>
     <main>
         <section class="content">
             <div class="container">
@@ -412,6 +429,7 @@
         </div>
     </footer>
     <script src="./modal.js"></script>
+    <script src="./burger.js"></script>
 </body>
 
 </html>
